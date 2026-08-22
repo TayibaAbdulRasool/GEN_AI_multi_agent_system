@@ -1,0 +1,41 @@
+# LangChain core
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# Mistral
+langchain-mistralai
+mistralai
+
+# Tavily Web Search
+langchain-tavily
+tavily-python
+
+# Web scraping
+beautifulsoup4
+requests
+lxml
+
+# Environment variables
+python-dotenv
+
+# Hugging Face / Embeddings
+langchain-huggingface
+sentence-transformers
+transformers
+torch
+torchvision
+torchaudio
+
+# Vector databases
+faiss-cpu
+chromadb
+
+# Document loaders
+pypdf
+unstructured
+python-docx
+
+# UI
+streamlit
