@@ -10,9 +10,14 @@ from tools import web_search, scrape_url
 
 load_dotenv()
 
+api_key = os.getenv("MISTRAL_API_KEY")
+
+if not api_key:
+    raise ValueError("MISTRAL_API_KEY is missing from Streamlit Secrets")
+
 llm = ChatMistralAI(
     model="mistral-small-latest",
-    api_key=os.getenv("MISTRAL_API_KEY")
+    api_key=api_key
 )
 
 def built_search_agent():
