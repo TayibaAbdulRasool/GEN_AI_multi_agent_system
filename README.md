@@ -107,7 +107,7 @@ Impact of Generative AI on Software Development
 
 The system searches for relevant information, analyzes the sources, generates a report, and then reviews the report using the Critic Agent.
 
-
+**UI Interface**
 <img width="1918" height="858" alt="image" src="https://github.com/user-attachments/assets/b64e5320-0d54-4568-ba65-4a29657d0ca8" />
 
 
